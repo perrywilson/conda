@@ -2,6 +2,7 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
+  - python=3.8
   - numpy
   - psutil
   - toolz
@@ -11,4 +12,4 @@ dependencies:
   - partd
   - bokeh
   - dask
-  - intern
+  - intern=1.2.0
